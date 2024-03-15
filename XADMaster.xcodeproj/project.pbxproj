@@ -46,7 +46,6 @@
 		1B216A750F8E8ADE001207C9 /* Progress.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B216A730F8E8ADE001207C9 /* Progress.h */; };
 		1B216A760F8E8ADE001207C9 /* Progress.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B216A740F8E8ADE001207C9 /* Progress.m */; };
 		1B216A790F8E9064001207C9 /* CRC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B216A770F8E9064001207C9 /* CRC.m */; };
-		1B216A800F8E9D9E001207C9 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B216A7F0F8E9D9E001207C9 /* Carbon.framework */; };
 		1B216BBE0F8E9DED001207C9 /* XADArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B5A80B50A27AA9900B189EB /* XADArchive.m */; };
 		1B23DAA01177C99900620319 /* Scanning.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B23DA9E1177C99900620319 /* Scanning.m */; };
 		1B23DB8F117BA91D00620319 /* XADNowCompressParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B23DB8D117BA91D00620319 /* XADNowCompressParser.m */; };
@@ -1034,7 +1033,6 @@
 		1B91D18811E1677B0081E40A /* libUniversalDetector.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B23E1B11190F8CC00620319 /* libUniversalDetector.a */; };
 		1B91D18911E1677B0081E40A /* libXADMaster.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B34A97511C2FD0500396C26 /* libXADMaster.a */; };
 		1B91D18A11E1677B0081E40A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B3FABA70EC52532006D2F06 /* libz.dylib */; };
-		1B91D18B11E1677B0081E40A /* libstdc++.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B34AABB11C30F5400396C26 /* libstdc++.6.dylib */; };
 		1B91D19511E167B60081E40A /* lsar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B91D17711E167720081E40A /* lsar.m */; };
 		1B91D1A111E237AD0081E40A /* CommandLineCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B91D1A011E237AD0081E40A /* CommandLineCommon.m */; };
 		1B91D1A211E237AD0081E40A /* CommandLineCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B91D1A011E237AD0081E40A /* CommandLineCommon.m */; };
@@ -1422,6 +1420,7 @@
 		73DA346A206B6BF1006ADB42 /* XADMaster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DC2EF5B0486A6940098B216 /* XADMaster.framework */; };
 		C4C3241827AC25E9007919DB /* XADZippedBzip2LeakTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C3241727AC25E9007919DB /* XADZippedBzip2LeakTests.m */; };
 		C4C3241A27AC2655007919DB /* eicar.bz in Resources */ = {isa = PBXBuildFile; fileRef = C4C3241927AC2655007919DB /* eicar.bz */; };
+		CAF128172BA4D7AC00E39C26 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CAF128162BA4D79800E39C26 /* libc++.tbd */; };
 		DF05DCF92806F104001E9C52 /* XADMaster.h in Headers */ = {isa = PBXBuildFile; fileRef = DF05DCF52806EF40001E9C52 /* XADMaster.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E424FB4721CAE11D00E1C950 /* XADArchiveParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E424FB4621CAE11D00E1C950 /* XADArchiveParserTests.m */; };
 		E424FB4E21CAEC0300E1C950 /* XADZipParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E424FB4D21CAEC0300E1C950 /* XADZipParserTests.m */; };
@@ -2152,6 +2151,7 @@
 		8DC2EF5B0486A6940098B216 /* XADMaster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XADMaster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4C3241727AC25E9007919DB /* XADZippedBzip2LeakTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XADZippedBzip2LeakTests.m; sourceTree = "<group>"; };
 		C4C3241927AC2655007919DB /* eicar.bz */ = {isa = PBXFileReference; lastKnownFileType = file; path = eicar.bz; sourceTree = "<group>"; };
+		CAF128162BA4D79800E39C26 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		DF05DCF52806EF40001E9C52 /* XADMaster.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XADMaster.h; sourceTree = "<group>"; };
 		E424FB4621CAE11D00E1C950 /* XADArchiveParserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XADArchiveParserTests.m; sourceTree = "<group>"; };
 		E424FB4D21CAEC0300E1C950 /* XADZipParserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XADZipParserTests.m; sourceTree = "<group>"; };
@@ -2214,12 +2214,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B91D18411E1677B0081E40A /* libbz2.dylib in Frameworks */,
+				CAF128172BA4D7AC00E39C26 /* libc++.tbd in Frameworks */,
 				1B91D18611E1677B0081E40A /* Foundation.framework in Frameworks */,
 				1B91D18711E1677B0081E40A /* Carbon.framework in Frameworks */,
 				1B91D18811E1677B0081E40A /* libUniversalDetector.a in Frameworks */,
 				1B91D18911E1677B0081E40A /* libXADMaster.a in Frameworks */,
 				1B91D18A11E1677B0081E40A /* libz.dylib in Frameworks */,
-				1B91D18B11E1677B0081E40A /* libstdc++.6.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2253,7 +2253,6 @@
 				1B3FABA80EC52532006D2F06 /* libz.dylib in Frameworks */,
 				1B3FAC5D0EC5255A006D2F06 /* Foundation.framework in Frameworks */,
 				1BBCC54D0EE73B7F006C3AE2 /* libbz2.dylib in Frameworks */,
-				1B216A800F8E9D9E001207C9 /* Carbon.framework in Frameworks */,
 				7398C7AE2059248700D7B977 /* UniversalDetector.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -3254,6 +3253,7 @@
 		7398C7AD2059248700D7B977 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CAF128162BA4D79800E39C26 /* libc++.tbd */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -5212,7 +5212,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				USE_HEADERMAP = NO;
 			};
 			name = Release;
@@ -5238,7 +5239,6 @@
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "@executable_path/../Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = (
 					"-weak_framework",
@@ -5248,6 +5248,9 @@
 				PRODUCT_NAME = XADMaster;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;
@@ -5374,7 +5377,6 @@
 					"\"$(SRCROOT)/Windows/lib\"",
 					"\"$(DEVELOPER_DIR)/Cocotron/1.0/Windows/i386/gcc-4.3.1/i386-mingw32msvc/lib\"",
 				);
-				MACOSX_DEPLOYMENT_TARGET = "";
 				MACOSX_DEPLOYMENT_TARGET_i386 = "";
 				MACOSX_DEPLOYMENT_TARGET_ppc = "";
 				MACOSX_DEPLOYMENT_TARGET_x86_64 = "";
@@ -5423,7 +5425,6 @@
 					"\"$(SRCROOT)/Windows/lib\"",
 					"\"$(DEVELOPER_DIR)/Cocotron/1.0/Windows/i386/gcc-4.3.1/i386-mingw32msvc/lib\"",
 				);
-				MACOSX_DEPLOYMENT_TARGET = "";
 				MACOSX_DEPLOYMENT_TARGET_i386 = "";
 				MACOSX_DEPLOYMENT_TARGET_ppc = "";
 				MACOSX_DEPLOYMENT_TARGET_x86_64 = "";
@@ -5526,7 +5527,6 @@
 					"\"$(SRCROOT)/Windows/lib\"",
 					"\"$(DEVELOPER_DIR)/Cocotron/1.0/Windows/i386/gcc-4.3.1/i386-mingw32msvc/lib\"",
 				);
-				MACOSX_DEPLOYMENT_TARGET = "";
 				MACOSX_DEPLOYMENT_TARGET_i386 = "";
 				MACOSX_DEPLOYMENT_TARGET_ppc = "";
 				MACOSX_DEPLOYMENT_TARGET_x86_64 = "";
@@ -5594,7 +5594,6 @@
 					"\"$(SRCROOT)/Windows/lib\"",
 					"\"$(DEVELOPER_DIR)/Cocotron/1.0/Windows/i386/gcc-4.3.1/i386-mingw32msvc/lib\"",
 				);
-				MACOSX_DEPLOYMENT_TARGET = "";
 				MACOSX_DEPLOYMENT_TARGET_i386 = "";
 				MACOSX_DEPLOYMENT_TARGET_ppc = "";
 				MACOSX_DEPLOYMENT_TARGET_x86_64 = "";
@@ -5636,7 +5635,6 @@
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "@executable_path/../Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = (
 					"-weak_framework",
@@ -5646,6 +5644,9 @@
 				PRODUCT_NAME = XADMaster;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Debug;
@@ -5674,7 +5675,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				ONLY_ACTIVE_ARCH = YES;
 				USE_HEADERMAP = NO;
 			};

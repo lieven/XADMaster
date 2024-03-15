@@ -238,6 +238,7 @@ preservePermissions:(BOOL)preservepermissions
 
 +(void)setComment:(NSString *)comment forPath:(NSString *)path;
 {
+#if TARGET_OS_OSX
 	if(!comment||![comment length]) return;
 
 	// Don't bother if we're sandboxed, as Apple refuses to allow
@@ -287,6 +288,7 @@ preservePermissions:(BOOL)preservepermissions
 
 	AEDisposeDesc(&builtevent);
 	AEDisposeDesc(&replyevent);
+#endif // TARGET_OS_OSX
 }
 
 
